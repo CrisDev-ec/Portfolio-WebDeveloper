@@ -1,1 +1,255 @@
-<h1> Portfolio Web Developer </h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian Velepucha - Desarrollador Web!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Header & Navbar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Portafolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">Acerca de mí</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <!-- Mobile menu toggle -->
+                <div class="toggle-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <h2>👋 Hola soy</h2>
+                    <h1>Cristian Velepucha</h1>
+                    <h3>Soy un <span class="text-primary">Desarrollador Web!</span></h3>
+                    <p>🔥Apasionado por la Innovación y la Tecnología. </br> Ayudo a emprendedores y empresas a conectar con sus clientes a través de soluciones digitales impulsadas por Inteligencia Artificial. Transformo ideas en experiencias.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/18GaBCFh7y/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.instagram.com/cristiandev.ec" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/cristian-velepucha-1b9307355/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="./CV/CV-DesarrolladorWeb.pdf" class="btn" target="_blank">Descargar CV</a>
+                </div>
+                <div class="home-image">
+                    <div class="hexagon">
+                        <img src="./images/Perfil2.png" alt="Cristian Dev">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="hexagon">
+                        <img src="./images/Perfil2.png" alt="John Kendric">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2>Acerca de <span class="text-primary">Mí</span></h2>
+                    <h3>Desarrollador Web!</h3>
+                    <p>Les ayudo a tener presencia digital con sitios web atractivos, funcionales y optimizados que conectan con sus clientes y potencian su crecimiento.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section-title">🚀 <span class="text-primary">Servicios</span></h2>
+            <div class="services-content">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Diseño interfaces web, optimizo la experiencia del usuario, implemento funcionalidades interactivas y adapto sitios a distintos dispositivos y navegadores.</p>
+                    <a href="#portfolio" class="btn">Read More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                         <i class='fas fa-laptop-code'></i>
+                    </div>
+                    <h3>Automatizaciones</h3>
+                    <p>Analizo procesos, diseño flujos automatizados, integro herramientas digitales y optimiza tareas repetitivas para aumentar la eficiencia y productividad.</p>
+                    <a href="#portfolio" class="btn">Read More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Asistentes (GPTs)</h3>
+                    <p>Creo, entreno y personalizo asistentes GPT para atención, ventas o soporte, integrándolos en sistemas para mejorar la comunicación y eficiencia</p>
+                    <a href="#portfolio" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title">👨‍💻<span class="text-primary">Proyectos</span></h2>
+            <div class="portfolio-content">
+                <div class="portfolio-item">
+                    <img src="./images/Peef.png" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Peef Corp</h3>
+                        <p>Diseño moderno, Navegación intuitiva,</p> 
+                        <p>Funcionalidades Interactivas, Responsiva</p>
+                        <p>"adaptada a diferentes dispositivos"</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="./images/Nature.png" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Nature Galapagos</h3>
+                        <p>Diseño intuitivo y estructurado.</p> 
+                        <p>Incluye galerías de imágenes, formularios</p>
+                        <p>de contacto y es Responsiva</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="./images/DentalWhite.png" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Dental White</h3>
+                        <p>Diseño limpio y profesional</p> 
+                        <p>Incluye formularios de contacto,</p>
+                        <p>Agendar citas y es Responsiva</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="./images/Automatizar.png" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h4>Automatiza tu embudo con Make</h4>
+                        <p>Sistema que automáticamente entrega</p> 
+                        <p>tu Ebook a cada nuevo suscriptorp>
+                        <p>de tu sitio de Wordpress</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="./images/Automatizar2.png" alt="Project 5">
+                    <div class="portfolio-overlay">
+                        <h3>Clasifica a nuevos clientes</h3>
+                        <p>Interpreta correos electrónicos y</p> 
+                        <p>según su contenido lo clasifica</p>
+                        <p>como Cliente nuevo o</p>
+                        <p>Cliente recurrente.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="./images/Atencion.png" alt="Project 6">
+                    <div class="portfolio-overlay">
+                        <h4>Asistentes personalizados</h4>
+                        <p>El Asistente, se enfocará mantener</p> 
+                        <p>una buena relación con el cliente</p>
+                        <p>y proteger la viabilidad del negocio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <form id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="status-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Copyright © 2024 by CristianDev | All Rights Reserved.</p>
+            <a href="#home" class="scroll-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/script.js">
+      (function() {
+            // Reemplaza "YOUR_PUBLIC_KEY" con tu clave pública de EmailJS
+            emailjs.init("Ke1U8NwAUnyFo6dYr");
+        })();
+    </script>
+    <script type="text/javascript">
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Mostrar mensaje de carga
+            document.getElementById('status-message').textContent = 'Enviando mensaje...';
+            
+            // Obtener los valores del formulario
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+            
+            // Enviar el correo usando EmailJS
+            // Reemplaza "YOUR_SERVICE_ID" y "YOUR_TEMPLATE_ID" con tus IDs de EmailJS
+            emailjs.send("service_hgr31bd", "template_xttwlrm", formData)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    document.getElementById('status-message').textContent = '¡Mensaje enviado con éxito!';
+                    document.getElementById('contact-form').reset();
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    document.getElementById('status-message').textContent = 'Error al enviar el mensaje. Por favor, intenta nuevamente.';
+                });
+        });
+    </script>
+</body>
+</html>
