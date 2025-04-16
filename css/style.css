@@ -177,6 +177,9 @@ nav ul li a.active {
 
 .social-links {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .social-links a {
@@ -188,7 +191,6 @@ nav ul li a.active {
     background-color: transparent;
     border: 2px solid var(--primary-color);
     border-radius: 50%;
-    margin-right: 15px;
     transition: var(--transition);
 }
 
